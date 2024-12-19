@@ -56,6 +56,9 @@ Faça as alterações e comente as mudanças:
 bash
 Copiar código
 git commit -m "Minha nova feature"
+git commit -m "Minha nova feature"
+
+
 Envie um pull request.
 
 📞 Contato
