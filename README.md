@@ -1,9 +1,6 @@
-# resultadosleilaodotesouro
+# Dashboard de Resultados de Leilões do Tesouro Nacional
 
-# Dashboard de Leilões do Tesouro Nacional
-
-Este projeto é um dashboard interativo desenvolvido em Python utilizando o framework **Streamlit**.
-O objetivo é fornecer uma visualização detalhada e dinâmica dos resultados dos leilões realizados pelo Tesouro Nacional.
+Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o framework **Streamlit**. O objetivo é fornecer uma visualização detalhada e dinâmica dos resultados dos leilões realizados pelo Tesouro Nacional.
 
 ## 🎯 Funcionalidades
 
@@ -37,44 +34,30 @@ O objetivo é fornecer uma visualização detalhada e dinâmica dos resultados d
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
 
-📊 Exemplos de Uso
+## 📊 Exemplos de Uso
 Exemplo 1: Visualizando Todos os Leilões de um Ano
 Selecione o ano desejado, escolha "Todas" as datas e aplique filtros por tipo de título ou vencimento.
 
 Exemplo 2: Detalhando um Leilão Específico
 Escolha o ano, selecione uma data específica do leilão e filtre por vencimento para ver os resultados detalhados.
 
-🤝 Contribuições
+## 🤝 Contribuições
+
 Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 
-Faça um fork do projeto.
-Crie uma nova branch:
-bash
-Copiar código
-git checkout -b minha-feature
-Faça as alterações e comente as mudanças:
-bash
-Copiar código
-git commit -m "Minha nova feature"
-git commit -m "Minha nova feature"
+1. **Faça um fork do projeto.**
+2. **Crie uma nova branch:**
+   ```bash
+   git checkout -b minha-feature
+3. **Faça as alterações e comente as mudanças:**
+   ```bash
+   git commit -m "Minha nova feature"
+4. **Envie um pull request**
 
+## 📞 Contato
 
-Envie um pull request.
-
-📞 Contato
 Se tiver dúvidas ou sugestões, entre em contato:
 
-Email: seu-email@exemplo.com
-GitHub: seu-usuario
-yaml
-Copiar código
+**Email: maximiliancf.cnpi@icloud.com**
 
----
-
-### **Passo 3: Salvar e Adicionar ao Repositório**
-1. Salve o arquivo `README.md` no diretório principal do projeto.
-2. Adicione e faça o commit ao seu repositório:
-   ```bash
-   git add README.md
-   git commit -m "Adicionado README.md ao projeto"
-   git push origin main
+**GitHub: MaximilianCF**
