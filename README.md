@@ -1,24 +1,19 @@
-## Copyright 2024
-## Maximilian Canez Fernandes 
-## maximiliancf.cnpi@icloud.com
-## **Licensed under the Apache License, Version 2.0.**
-
 # Dashboard de Resultados de Leilões do Tesouro Nacional
 
 Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o framework **Streamlit**. O objetivo é fornecer uma visualização detalhada e dinâmica dos resultados dos leilões realizados pelo Tesouro Nacional.
 
 ## 🎯 Funcionalidades
 
-- **Filtragem Dinâmica**:
+- **_Filtragem Dinâmica_**:
   - Escolha o **ano** desejado para buscar os dados dos leilões.
   - Selecione **"Todas" as datas** ou uma **data específica do leilão**.
   - Filtre por **tipo de título** e **vencimento**.
-- **Visualização de Dados**:
+- **_Visualização de Dados_**:
   - Tabela interativa com os resultados dos leilões, incluindo:
     - Data do leilão
     - Títulos ofertados
     - Quantidades, taxas e valores financeiros
-- **Gráficos Interativos**:
+- **_Gráficos Interativos_**:
   - Volume ofertado vs. aceito
   - Taxas de corte
   - Volume financeiro aceito
@@ -35,9 +30,23 @@ Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o 
 ## 🚀 Como Executar
 
 1. **Clone o Repositório**:
-   ```bash
+   ~~~ bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
+2. **Crie um Ambiente Virtual (opcional, mas recomendado):**
+   ~~~bash
+   python3 -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate  # Windows
+3. **Instale as Dependências:**
+   ~~~bash
+   pip install -r requirements.txt
+4. **Execute o Dashboard:**
+   ~~~bash
+   streamlit run dashboard_tesouro.py
+5. **Acesse no Navegador:**
+
+   Geralmente em: http://localhost:8501
 
 ## 📊 Exemplos de Uso
 Exemplo 1: Visualizando Todos os Leilões de um Ano
@@ -66,3 +75,8 @@ Se tiver dúvidas ou sugestões, entre em contato:
 **Email: maximiliancf.cnpi@icloud.com**
 
 **GitHub: MaximilianCF**
+
+Copyright 2024
+Maximilian Canez Fernandes 
+maximiliancf.cnpi@icloud.com
+**Licensed under the Apache License, Version 2.0.**
