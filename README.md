@@ -1,3 +1,8 @@
+## Copyright 2024
+## Maximilian Canez Fernandes 
+## maximiliancf.cnpi@icloud.com
+## **Licensed under the Apache License, Version 2.0.**
+
 # Dashboard de Resultados de Leilões do Tesouro Nacional
 
 Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o framework **Streamlit**. O objetivo é fornecer uma visualização detalhada e dinâmica dos resultados dos leilões realizados pelo Tesouro Nacional.
