@@ -53,7 +53,9 @@ Exemplo 1: Visualizando Todos os Leilões de um Ano
 Selecione o ano desejado, escolha "Todas" as datas e aplique filtros por tipo de título ou vencimento.
 
 Exemplo 2: Detalhando um Leilão Específico
-Escolha o ano, selecione uma data específica do leilão e filtre por vencimento para ver os resultados detalhados.
+* Escolha o ano
+* Selecione uma data específica do leilão
+* Filtre por vencimento para ver os resultados detalhados.
 
 ## 🤝 Contribuições
 
