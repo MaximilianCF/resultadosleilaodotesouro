@@ -1,5 +1,4 @@
 # resultadosleilaodotesouro
-Dashboard em Python e Streamlit para acompanhar os resultados dos leilões do Tesouro Nacional
 
 # Dashboard de Leilões do Tesouro Nacional
 
