@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 
 # Função para buscar os dados da API
 def fetch_leilao_data(base_url, ano=None):
@@ -88,7 +89,16 @@ if not data_filtrada.empty:
 
         # Gráfico: Volume Ofertado x Aceito
         st.subheader("Volume Ofertado x Aceito")
-        st.bar_chart(data_filtrada[["OFERTA", "QUANTIDADE ACEITA"]])
+        # st.bar_chart(data_filtrada[["OFERTA", "QUANTIDADE ACEITA"]])
+        fig = px.bar(
+            data_filtrada,
+            x="TITULO",
+            y=["OFERTA", "QUANTIDADE ACEITA"],
+            barmode="group",
+            labels={"value": "Quantidade", "variable": "Tipo"},
+            title="Volume Ofertado x Aceito por Título"
+        )
+        st.plotly_chart(fig)
 
         # Gráfico: Taxa de Corte
         st.subheader("Taxas de Corte")
