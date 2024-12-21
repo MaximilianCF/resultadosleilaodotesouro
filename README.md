@@ -6,7 +6,8 @@ Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o 
 
 - **_Filtragem Dinâmica_**:
   - Escolha o **ano** desejado para buscar os dados dos leilões.
-  - Selecione **"Todas" as datas** ou uma **data específica do leilão**.
+  - Selecione que tipo de leilão **compra** ou **venda**.
+  - Selecione **"Todas"** ou uma **data específica do leilão**.
   - Filtre por **tipo de título** e **vencimento**.
 - **_Visualização de Dados_**:
   - Tabela interativa com os resultados dos leilões, incluindo:
@@ -17,15 +18,14 @@ Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o 
   - Volume ofertado vs. aceito
   - Taxas de corte
   - Volume financeiro aceito
-  - Segunda volta (dealers)
-  - Banco Central (quantidade e volume)
-
+  
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python**: Linguagem principal do projeto.
 - **Streamlit**: Framework para criação de dashboards interativos.
 - **Pandas**: Manipulação e análise de dados.
 - **Requests**: Consumo de APIs RESTful.
+- **Plotly**: Criação dos gráficos.
 
 ## 🚀 Como Executar
 
@@ -50,10 +50,12 @@ Este projeto é um **dashboard interativo** desenvolvido em Python utilizando o 
 
 ## 📊 Exemplos de Uso
 Exemplo 1: Visualizando Todos os Leilões de um Ano
-Selecione o ano desejado, escolha "Todas" as datas e aplique filtros por tipo de título ou vencimento.
+Selecione o ano desejado e clique em **Buscar Parâmetros**. Escolha "Todas" as datas e aplique filtros por tipo de leilão, de título ou vencimento.
 
 Exemplo 2: Detalhando um Leilão Específico
-Escolha o ano, selecione uma data específica do leilão e filtre por vencimento para ver os resultados detalhados.
+Escolha o ano e clique em **Buscar Parâmetros**. Selecione tipo de leilão, data do leilão, tipo de título e  vencimento para ver os resultados detalhados.
+
+**OBS.: Quando escolher TODAS as datas do leilão, TODOS os tipos de título e TODOS os vencimento o gráfico da taxa de corte não terá uma visualização adequada. Ainda preciso melhorar isto.**
 
 ## 🤝 Contribuições
 
@@ -72,6 +74,6 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 
 Se tiver dúvidas ou sugestões, entre em contato:
 
-**Email: seu-email@exemplo.com**
+**Email: maximiliancf.cnpi@icloud.com**
 
-**GitHub: seu-usuario**
+**GitHub: MaximilianCF**
