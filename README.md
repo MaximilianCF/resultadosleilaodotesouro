@@ -55,7 +55,7 @@ Selecione o ano desejado e clique em **Buscar Parâmetros**. Escolha "Todas" as 
 Exemplo 2: Detalhando um Leilão Específico
 Escolha o ano e clique em **Buscar Parâmetros**. Selecione tipo de leilão, data do leilão, tipo de título e  vencimento para ver os resultados detalhados.
 
-**OBS.: Quando escolher TODAS as datas do leilão, TODOS os tipos de título e TODOS os vencimento o gráfico da taxa de corte não terá uma visualização adequada. Ainda preciso melhorar isto.**
+**OBS.: Quando escolher TODAS as datas do leilão, TODOS os tipos de título e TODOS os vencimentos, o gráfico da taxa de corte não terá uma visualização adequada. Ainda preciso melhorar isto.**
 
 ## 🤝 Contribuições
 
