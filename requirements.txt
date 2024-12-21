@@ -1,3 +1,4 @@
+plotly
 requests
 plotly.express
 plotly.graph_objects
