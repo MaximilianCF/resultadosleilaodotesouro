@@ -60,7 +60,6 @@ API_URL = "https://apiapex.tesouro.gov.br/aria/v1/api-leiloes-pub/custom/resulta
 
 # Streamlit Dashboard
 st.title("Dashboard de Resultados de Leilões do Tesouro Nacional")
-st.write("Visualize dados detalhados de oferta, quantidade aceita e volumes financeiros.")
 
 # Painel lateral com filtros
 with st.sidebar:
