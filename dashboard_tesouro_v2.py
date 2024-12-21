@@ -95,7 +95,7 @@ vencimentos_disponiveis = st.session_state.get('vencimentos_disponiveis', [])
 tipo = st.sidebar.selectbox("Selecione o Tipo de Leilão:", tipos_disponiveis)
 
 # Menu suspenso para data do leilão com a opção "TODAS"
-data_leilao = st.sidebar.selectbox("Selecione a Data do Leilão:", ["TODAS"] + list(datas_disponiveis))
+data_leilao = st.sidebar.selectbox("Selecione a Data do Leilão:", ["Todas"] + list(datas_disponiveis))
 
 # Filtro dinâmico por tipo de título
 titulo_selecionado = st.sidebar.selectbox("Selecione o Tipo de Título:", ["Todos"] + list(titulos_disponiveis))
