@@ -68,8 +68,7 @@ with st.sidebar:
     st.info("Insira o ano desejado para pesquisa e clique em **'BUSCAR PARÂMETROS'** para carregar os dados."
             " Após, clicar em **'BUSCAR DADOS'**.", icon=":material/arrow_right:")
     st.info("**CASO NÃO EXISTAM DADOS RETORNADOS, AJUSTE OS PARÂMETROS NOVAMENTE** ", icon=':material/arrow_right:')
-    st.info("**A API NÃO RETORNA DADOS DA QUANTIDADE OFERTADA EM SEGUNDA VOLTA. COM ISTO, NOS LEILÕES QUE TIVERAM OFERTA EM SEGUNDA VOLTA
-     O GRÁFICO DE QUANTIDADE OFERTADA VAI SER DIFERENTE EM RELAÇÃO À REAL QUANTIDADE OFERTADA.**", icon=':material/notification_important:')
+    st.info("**A API NÃO RETORNA DADOS DA QUANTIDADE OFERTADA EM SEGUNDA VOLTA. COM ISTO, NOS LEILÕES QUE TIVERAM OFERTA EM SEGUNDA VOLTA O GRÁFICO DE QUANTIDADE OFERTADA VAI SER DIFERENTE EM RELAÇÃO À REAL QUANTIDADE OFERTADA.**", icon=':material/notification_important:')
 
 # Filtro por ano
 ano = st.sidebar.text_input("Ano desejado (ex: 2023):")
