@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 st.set_page_config(layout="wide")
 
 # Função para buscar os dados da API
+@st.cache_data
 def fetch_leilao_data(base_url, ano=None, tipo=None):
     try:
         params = {"ano": ano, "tipo": tipo} if ano and tipo else {"ano": ano} if ano else {"tipo": tipo} if tipo else {}
