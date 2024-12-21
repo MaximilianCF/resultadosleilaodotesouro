@@ -75,7 +75,7 @@ titulos_disponiveis = []
 vencimentos_disponiveis = []
 
 # Botão para buscar parâmetros
-if st.sidebar.button("Buscar Parâmetros"):
+if st.sidebar.button("Buscar Parâmetros", type="primary"):
     datas_disponiveis, tipos_disponiveis, titulos_disponiveis, vencimentos_disponiveis = fetch_leilao_parameters(API_URL, ano=ano)
     st.session_state['datas_disponiveis'] = datas_disponiveis
     st.session_state['tipos_disponiveis'] = tipos_disponiveis
@@ -101,7 +101,7 @@ titulo_selecionado = st.sidebar.selectbox("Selecione o Tipo de Título:", ["Todo
 vencimento = st.sidebar.selectbox("Selecione o Vencimento:", ["Todos"] + list(vencimentos_disponiveis))
 
 # Botão de busca
-buscar_dados = st.sidebar.button("Buscar Dados")
+buscar_dados = st.sidebar.button("Buscar Dados", type="primary")
 
 # Inicialização de variáveis
 data = pd.DataFrame()  # Garante que `data` seja inicializada como um DataFrame vazio
