@@ -4,6 +4,9 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 
+# Definir como wide view
+st.set_page_config(layout="wide")
+
 # Função para buscar os dados da API
 def fetch_leilao_data(base_url, ano=None, tipo=None):
     try:
