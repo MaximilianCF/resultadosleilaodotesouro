@@ -150,7 +150,7 @@ if buscar_dados:
                 "VENCIMENTO": {"width": 150},
                 "OFERTA": {"width": 150},
                 "TOTAL QUANTIDADE ACEITA": {"width": 150},
-                "TOTAL FINANCEIRO ACEITO": {"width": 150}
+                "TOTAL FINANCEIRO ACEITO": {"width": 150, "type":"numeric", "format":"R${:.2f}"}
             })
 
             # Gráfico: Volume Ofertado x Aceito
