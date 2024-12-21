@@ -144,7 +144,7 @@ if buscar_dados:
 
             # Mostrar tabela formatada
             st.subheader("Dados Filtrados")
-            st.data_editor(data, hide_index=True, column_config={
+            st.data_editor(data, disabled=True, hide_index=True, column_config={
                 "DATA": {"width": 150},
                 "TITULO": {"width": 150},
                 "VENCIMENTO": {"width": 150},
