@@ -56,7 +56,7 @@ def fetch_leilao_data(base_url, ano=None, tipo=None):
             {"ano": ano} if ano else \
                 {"tipo": tipo} if tipo else {}
 
-        response = requests.get(base_url, params=params, verfiy=False)
+        response = requests.get(base_url, params=params, verify=False)
         response.raise_for_status()
         data = response.json()
         registros = data.get("registros", [])
